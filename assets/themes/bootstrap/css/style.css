@@ -13,6 +13,10 @@
 .navbar .nav {
   float: right; }
 
+.navbar-toggle {
+    color: white;   
+}  
+
   /* title */
 .navbar-default .navbar-brand {
     color: #FFF;
