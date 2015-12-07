@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Alorma</title>
+        <description>Alorma - Bernat Borrás Paronella</description>
+        <link>http://alorma.github.io</link>
+        <link>http://alorma.github.io</link>
+        <lastBuildDate>2015-12-07T18:03:27+01:00</lastBuildDate>
+        <pubDate>2015-12-07T18:03:27+01:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Test</title>
+                <description>&lt;p&gt;Hello world&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gitskarios test&lt;/strong&gt;&lt;/p&gt;
+</description>
+                <link>http://alorma.github.io/misc/2015/12/07/test</link>
+                <guid>http://alorma.github.io/misc/2015/12/07/test</guid>
+                <pubDate>2015-12-07T00:00:00+01:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

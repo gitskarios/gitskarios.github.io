@@ -1,0 +1,11 @@
+
+http://alorma.github.io/archive.html
+http://alorma.github.io/atom.xml
+http://alorma.github.io/categories.html
+http://alorma.github.io/index.html
+http://alorma.github.io/pages.html
+http://alorma.github.io/rss.xml
+http://alorma.github.io/sitemap.txt
+http://alorma.github.io/tags.html
+
+http://alorma.github.io/misc/2015/12/07/test
