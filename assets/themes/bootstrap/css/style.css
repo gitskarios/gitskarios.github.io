@@ -6,8 +6,39 @@
 .container-narrow > hr {
   margin: 30px 0; }
 
+.navbar {
+  background: #3949AB;
+  color: #fff; }
+
 .navbar .nav {
   float: right; }
+
+  /* title */
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #303F9F;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #303F9F;
+    color: #FFFFFF;
+}
 
 /* posts index */
 .post > h3.title {
