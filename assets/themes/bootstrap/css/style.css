@@ -40,6 +40,17 @@
     color: #FFFFFF;
 }
 
+.btn-primary
+.btn-primary:active,
+.btn-primary:visited{
+    background-color: #FF5722 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #BA3f19 !important;
+}
+
 /* posts index */
 .post > h3.title {
   position: relative;
