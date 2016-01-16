@@ -14,87 +14,83 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<meta name="description" content="Gitskarios, Andorid developer">
+	<meta name="description" content="Gitskarios for Github">
 	<meta name="author" content="Bernat Borr&aacute;s">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#00897B">
+	<meta name="theme-color" content="#3949AB">
 </head>
 <body>
 <div id="blue_bg"></div>
 <header>
 	<div id="quick_card" class="card">
-		<div><img id="photo" src="img/photo.jpg" /></div> <!-- replace photo in /img/ 705x705 -->
-		<h1 id="name">Bernat Borr&aacute;s</h1>
-		<h2 id="description">Android developer,<br/>OpenSource fan<br/>Developer of <a href="https://play.google.com/store/apps/details?id=com.alorma.github">Gitskarios</a></h2>
+		<div><img id="photo" src="img/photo.png" /></div> <!-- replace photo in /img/ 705x705 -->
+		<h1 id="name">Gitskarios</h1>
+		<h2 id="description">Github on Android</h2>
 	</div>
 </header>
 <main>
-<div id="about_card" class="card">
-<!--
+<div id="changelog_card" class="card">
 	<section class="tab">
-		<div class="title"><i class="fa fa-tachometer"></i>Experience</div>
+		<div class="title"><i class="fa fa-newspaper-o"></i>2.7.9</div>
 		<div class="content">
 			<section class="element"> 
-						<div class="name">Android developer at Schibsted Spain</div>
-						<div class="info">0ctober2016</div>
+				<div class="name">
+					<ul>
+						<li>Fix readmes not parsed if using reStructuredText</li>
+				        <li>Fix bug with source list, no more reload content after open a file.
+				        </li>
+					</ul>
+
+				</div>
 			</section>
-			<hr align="left"/>
-			<section class="element"> 
-					<div class="name">Android Developer at Worldline Spain</div>
-					<div class="info">April 2014</div>
 			</section>
-		</div>
-	</section>
-		-->
-	<section class="tab">
-		<div class="title"><i class="fa fa-suitcase"></i>My Work</div>
-		<div class="content">
-			<section class="element"> 
-						<div class="name">Android developer at <a href="http://www.schibsted.es/" target="_blank">Schibsted Spain</a></div>
-						<div class="info">0ctober 2016</div>
-			</section>
-			<hr align="left"/>
-			<section class="element"> 
-					<div class="name">Android Developer at <a href="http://es.worldline.com/es-es/home.html" target="_blank">Worldline Spain</a></div>
-						<div><a href="http://yourlinkhere" target="_blank">link</a></div>
-					<div class="info">April 2014</div>
-			</section>
-		</div>
-	</section>
-	<!--
-	<section class="tab">
-		<div class="title"><i class="fa fa-graduation-cap"></i>Education</div>
-		<div class="content">
-			<section class="element">
-				<div class="name">Your first education</div>
-				<div class="info">Date </div>
-			</section>
-			<hr align="left"/>
-			<section class="element">
-				<div class="name">Your second education</div>
-				<div class="info">Date </div>
-			</section>
-		</div>
-	</section>
-	-->
-</div>
-<div id="contact_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-envelope"></i>Contact</div>
-		<div class="content">
-			<div class="contacts"><a href="mailto:bernatbor15@gmail.com"><i class="fa fa-envelope"></i>&nbsp; E-Mail</a></div>
-			<div class="contacts"><a href="https://github.com/alorma" target="_blank"><i class="fa fa-github"></i>&nbsp; Github</a></div>
-			<div class="contacts"><a href="https://plus.google.com/u/0/106283159224852116482" target="_blank"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></div>
-			<div class="contacts"><a href="https://twitter.com/lepetitbernat" target="_blank"><i class="fa fa-twitter"></i>&nbsp; Twitter</a></div>
-			<!-- You can add more contacts! -->
 		</div>
 	</section>
 </div>
-<a href="mailto:bernatbor15@gmail.com">
-	<div id="fab">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
+<div id="changelog_card" class="card">
+	<section class="tab">
+		<div class="title">2.7.5</div>
+		<div class="content">
+			<section class="element"> 
+				<div class="name">
+					<ul>
+						<li>Backup new issue content if you leave the screen. You will be able to
+            			navigate to other issues, users etc... and return to the new issue page
+				        </li>
+				        <li>Fix bug with content editor screen</li>
+					</ul>
+
+				</div>
+			</section>
+			</section>
+		</div>
+	</section>
+</div>
+<div id="changelog_card" class="card">
+	<section class="tab">
+		<div class="title">2.7.2</div>
+		<div class="content">
+			<section class="element"> 
+				<div class="name">
+					<ul>
+				        <li>Add refresh at Issue / Pull Request detail page</li>
+				        <li>Restore badges display from README</li>
+				        <li>Fix comment on issues / PR is not shown</li>
+				        <li>Fix at file page, now you can cancel the request</li>
+					</ul>
+
+				</div>
+			</section>
+			</section>
+		</div>
+	</section>
+</div>
+<a href="https://play.google.com/store/apps/details?id=com.alorma.github&utm_source=website&utm_medium=website&utm_campaign=website" target="blank">
+	<div id="fab">&nbsp;<i class="fa fa-download"></i>&nbsp;</div>
 </a>
 </main>
 <footer>
+ <small><a href="https://github.com/gitskarios/Gitskarios" target="_blank">Gitskarios</a> for Github, developed by <a href="https://github.com/alorma" target="_blank">Alorma</a>.</small>
 </footer>
 </body>
 </html>
