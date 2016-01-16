@@ -117,13 +117,13 @@ a:hover{
 
 footer{
 	z-index:-1;
-	position:fixed;
 	bottom:0;
 	width:100%;
 	text-align:center;
 	text-align:center;
 	font-size:15px;
 	color:#757575;
+	padding-top:10px;
 	padding-bottom:10px;
 	font-weight: bold;
 }
