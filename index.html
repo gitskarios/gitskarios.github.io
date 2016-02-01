@@ -1,107 +1,28 @@
-<!-- 
-	* Personal Cards 1.0 by Luca Cassani *
-	
-	You can copy, modify, publish, use, sell, 
-	or distribute this template for any purpose,
-	commercial or non-commercial, and by any means. 
-	It requires no special copyright notes nor attribution.
--->
+---
+layout: default
+---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Gitskarios for GitHub</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<meta name="description" content="Gitskarios for GitHub">
-	<meta name="author" content="Bernat Borr&aacute;s">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#3949AB">
-</head>
-<body>
-<div id="blue_bg"></div>
-<header>
-	<div id="quick_card" class="card">
-		<div><img id="photo" src="img/photo.png" /></div> <!-- replace photo in /img/ 705x705 -->
-		<h1 id="name">Gitskarios</h1>
-		<h2 id="description">GitHub on Android</h2>
-	</div>
-</header>
 <main>
-<div id="changelog_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-newspaper-o"></i>2.8.0</div>
-		<div class="content">
-			<section class="element"> 
-				<div class="name">
-					<ul>
-						<li>New <b>dark</b> Theme, available from settings</li>
-					</ul>
-				</div>
-			</section>
-		</div>
-	</section>
-</div>
-<div id="changelog_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-newspaper-o"></i>2.7.9</div>
-		<div class="content">
-			<section class="element"> 
-				<div class="name">
-					<ul>
-						<li>Fix readmes not parsed if using reStructuredText</li>
-				        <li>Fix bug with source list, no more reload content after open a file.
-				        </li>
-					</ul>
-
-				</div>
-			</section>
-		</div>
-	</section>
-</div>
-<div id="changelog_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-newspaper-o"></i>2.7.5</div>
-		<div class="content">
-			<section class="element"> 
-				<div class="name">
-					<ul>
-						<li>Backup new issue content if you leave the screen. You will be able to
-            			navigate to other issues, users etc... and return to the new issue page
-				        </li>
-				        <li>Fix bug with content editor screen</li>
-					</ul>
-
-				</div>
-			</section>
-		</div>
-	</section>
-</div>
-<div id="changelog_card" class="card">
-	<section class="tab">
-		<div class="title"><i class="fa fa-newspaper-o"></i>2.7.2</div>
-		<div class="content">
-			<section class="element"> 
-				<div class="name">
-					<ul>
-				        <li>Add refresh at Issue / Pull Request detail page</li>
-				        <li>Restore badges display from README</li>
-				        <li>Fix comment on issues / PR is not shown</li>
-				        <li>Fix at file page, now you can cancel the request</li>
-					</ul>
-
-				</div>
-			</section>
-		</div>
-	</section>
-</div>
-<a href="https://play.google.com/store/apps/details?id=com.alorma.github" target="blank">
+	<div class="home">
+		  {% for post in site.posts %}
+			  <div id="changelog_card" class="card">
+				<section class="tab">
+					<div class="title">
+						<i class="fa fa-newspaper-o"></i>
+						{{ post.title }}
+					</div>
+					<div class="content">
+						<section class="element"> 
+							<div class="name">
+								{{ post.excerpt }}{{ content }}
+							</div>
+						</section>
+					</div>
+				</section>
+			  </div>
+		  {% endfor %}
+	</div>
+<a href="{{ site.download_url }}" target="blank">
 	<div id="fab">&nbsp;<i class="fa fa-download"></i>&nbsp;</div>
 </a>
 </main>
-<footer>
- <small><a href="https://GitHub.com/gitskarios/Gitskarios" target="_blank">Gitskarios</a> for GitHub, developed by <a href="https://GitHub.com/alorma" target="_blank">Alorma</a>.</small>
-</footer>
-</body>
-</html>

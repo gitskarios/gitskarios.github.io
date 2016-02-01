@@ -1,0 +1,14 @@
+# Site settings
+title: Gitskarios
+email: gitskarios@gmail.com
+description: GitHub on Android
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://gitskarios.github.io"
+author: Bernat Borr&aacute;s
+twitter_username: gitskarios
+github_username:  alorma
+avatar:  img/photo.png
+download_url: "https://play.google.com/store/apps/details?id=com.alorma.github"
+
+# Build settings
+markdown: kramdown

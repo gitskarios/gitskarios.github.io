@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "v.2.7.9"
+---
+* Fix readmes not parsed if using reStructuredText
+* Fix bug with source list, no more reload content after open a file.
