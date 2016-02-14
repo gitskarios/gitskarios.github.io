@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "v.2.8.2"
+---
+* Fixed create repository layout problems
+* Fix issues search not working
+* Lots of bug fixes
