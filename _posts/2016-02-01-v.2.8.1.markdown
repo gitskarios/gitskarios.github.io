@@ -1,5 +1,5 @@
 ---
 layout: post
-title:  "v.2.8.1 - Coming soon"
+title:  "v.2.8.1"
 ---
 * Lots of bug fixes
