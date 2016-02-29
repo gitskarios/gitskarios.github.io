@@ -2,7 +2,7 @@
 layout: post
 title:  "Looking for help"
 ---
-# Welcome gitskarios users!
+**Welcome gitskarios users!**
 
 Gitskarios has been growing since i started the project 2 years ago. Many new features has been added, i tried to add the features you requested.
 
