@@ -1,0 +1,5 @@
+---
+layout: post
+title:  "v.2.9.4"
+---
+* Add option to show last received notifications (already readed)
