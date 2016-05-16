@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "v.2.13.0"
+---
+* Add issue reactions
+* Improved issues and pull request layouts
