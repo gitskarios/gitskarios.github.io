@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "v.2.15.0"
+---
+* Upload images directly from your device
+* New Colored themes
+* Fix many bugs
