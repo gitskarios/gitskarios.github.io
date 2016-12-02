@@ -10,7 +10,7 @@ I've learned a lot with this app, learned Java, Android, learned Dependency Inje
 
 I've learned a lot from users, you always surprised me with new cool features to add, and making the app OpenSource was one of the best decisions i ever had.
 
-But, apart from learn, tis project has been grown and had many many features, and gained in complexity. I tried to make the best and updated the app as fast as i could, but i can't do it as i used to.
+But, apart from learn, this project has been growning and had many many features, and gained in complexity. I tried to make the best and updated the app as fast as i could, but i can't do it as i used to.
 
 So i decided to stop gitskarios how it is, a big application to get GitHub on your Android device. That doesn't mean i'm going to remove it from playstore, it's still available for you all to download.
 
