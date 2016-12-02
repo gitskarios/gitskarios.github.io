@@ -1,8 +1,0 @@
----
-layout: post
-title:  "v.2.7.2"
----
-* Add refresh at Issue / Pull Request detail page
-* Restore badges display from README
-* Fix comment on issues / PR is not shown
-* Fix at file page, now you can cancel the request
